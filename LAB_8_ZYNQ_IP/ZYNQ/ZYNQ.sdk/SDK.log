@@ -1,0 +1,639 @@
+11:30:09 INFO  : Registering command handlers for SDK TCF services
+11:30:10 INFO  : Launching XSCT server: xsct.bat -interactive D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\temp_xsdb_launch_script.tcl
+11:30:14 INFO  : XSCT server has started successfully.
+11:30:19 INFO  : Successfully done setting XSCT server connection channel  
+11:30:19 INFO  : Successfully done setting SDK workspace  
+11:30:19 INFO  : Processing command line option -hwspec D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf.
+12:02:14 INFO  : Launching XSCT server: xsct.bat -interactive D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\temp_xsdb_launch_script.tcl
+12:02:17 INFO  : XSCT server has started successfully.
+12:02:26 INFO  : Successfully done setting XSCT server connection channel  
+12:02:26 INFO  : Successfully done setting SDK workspace  
+12:02:29 INFO  : Registering command handlers for SDK TCF services
+12:02:30 INFO  : Processing command line option -hwspec D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf.
+12:02:30 INFO  : Checking for hwspec changes in the project ZYNQ_block_wrapper_hw_platform_0.
+12:02:30 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1637649102853,  Project:1637647193201
+12:02:30 INFO  : The hardware specification for project 'ZYNQ_block_wrapper_hw_platform_0' is different from D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf.
+12:02:31 INFO  : Copied contents of D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf into \ZYNQ_block_wrapper_hw_platform_0\system.hdf.
+12:02:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:02:35 INFO  : Clearing existing target manager status.
+12:02:35 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:02:35 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:03:22 INFO  : Registering command handlers for SDK TCF services
+12:03:23 INFO  : Launching XSCT server: xsct.bat -interactive D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\temp_xsdb_launch_script.tcl
+12:03:26 INFO  : XSCT server has started successfully.
+12:03:26 INFO  : Successfully done setting XSCT server connection channel  
+12:03:27 INFO  : Successfully done setting SDK workspace  
+12:03:27 INFO  : Processing command line option -hwspec D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf.
+12:03:27 INFO  : Checking for hwspec changes in the project ZYNQ_block_wrapper_hw_platform_0.
+12:40:02 INFO  : Refreshed build settings on project Hello_world
+12:43:32 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+12:43:33 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+12:43:33 INFO  : 'jtag frequency' command is executed.
+12:43:33 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:43:36 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+12:43:36 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+12:45:53 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+12:45:54 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+12:45:54 INFO  : 'jtag frequency' command is executed.
+12:45:54 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:45:57 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+12:45:57 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+13:12:59 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+13:12:59 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+13:12:59 INFO  : 'jtag frequency' command is executed.
+13:12:59 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:12:59 INFO  : Context for 'APU' is selected.
+13:12:59 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+13:12:59 INFO  : 'configparams force-mem-access 1' command is executed.
+13:12:59 INFO  : Context for 'APU' is selected.
+13:12:59 INFO  : 'stop' command is executed.
+13:12:59 ERROR : AP transaction error, DAP status f0000021
+13:12:59 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+13:14:10 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+13:14:10 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+13:14:10 INFO  : 'jtag frequency' command is executed.
+13:14:10 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:14:13 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+13:14:13 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+14:09:25 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+14:09:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+14:09:25 INFO  : 'jtag frequency' command is executed.
+14:09:25 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:09:28 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+14:09:28 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+14:20:31 ERROR : Failed to redirect connection to hardware server on host '192.168.33.154' and port '3121'.
+Reason: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+14:20:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+----------------End of Script----------------
+
+16:06:22 ERROR : Failed to redirect connection to hardware server on host '192.168.33.154' and port '3121'.
+Reason: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+16:06:22 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+----------------End of Script----------------
+
+16:06:45 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+16:06:45 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+16:06:45 INFO  : 'jtag frequency' command is executed.
+16:06:45 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:06:48 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+16:06:48 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+16:10:12 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:10:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:10:12 INFO  : 'jtag frequency' command is executed.
+16:10:12 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:10:12 INFO  : Context for 'APU' is selected.
+16:10:14 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:10:14 INFO  : 'configparams force-mem-access 1' command is executed.
+16:10:14 INFO  : Context for 'APU' is selected.
+16:10:14 INFO  : 'stop' command is executed.
+16:10:19 INFO  : 'ps7_init' command is executed.
+16:10:19 INFO  : 'ps7_post_config' command is executed.
+16:10:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:10:19 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:10:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:10:19 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:10:20 INFO  : 'configparams force-mem-access 0' command is executed.
+16:10:20 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:10:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:10:20 INFO  : 'con' command is executed.
+16:10:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+16:10:20 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_zybo.tcl'
+16:13:40 INFO  : Disconnected from the channel tcfchan#6.
+16:13:41 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:13:41 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:13:41 INFO  : 'jtag frequency' command is executed.
+16:13:41 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:13:42 INFO  : Context for 'APU' is selected.
+16:13:44 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:13:44 INFO  : 'configparams force-mem-access 1' command is executed.
+16:13:44 INFO  : Context for 'APU' is selected.
+16:13:44 INFO  : 'stop' command is executed.
+16:13:48 INFO  : 'ps7_init' command is executed.
+16:13:48 INFO  : 'ps7_post_config' command is executed.
+16:13:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:13:48 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:13:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:13:49 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:13:49 INFO  : 'configparams force-mem-access 0' command is executed.
+16:13:49 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:13:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:13:49 INFO  : 'con' command is executed.
+16:13:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+16:13:49 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_zybo.tcl'
+16:15:11 INFO  : Disconnected from the channel tcfchan#7.
+16:15:12 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:15:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:15:12 INFO  : 'jtag frequency' command is executed.
+16:15:12 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:15:12 INFO  : Context for 'APU' is selected.
+16:15:14 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:15:14 INFO  : 'configparams force-mem-access 1' command is executed.
+16:15:14 INFO  : Context for 'APU' is selected.
+16:15:14 INFO  : 'stop' command is executed.
+16:15:19 INFO  : 'ps7_init' command is executed.
+16:15:19 INFO  : 'ps7_post_config' command is executed.
+16:15:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:15:19 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+16:15:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:15:19 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:15:19 INFO  : 'configparams force-mem-access 0' command is executed.
+16:15:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Hello_world/Debug/Hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:15:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:15:20 INFO  : 'con' command is executed.
+16:15:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+16:15:20 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_zybo.tcl'
+16:22:16 INFO  : Disconnected from the channel tcfchan#8.
+16:40:40 INFO  : Refreshed build settings on project Part_3_Compute_SQRT
+16:41:07 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:41:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:41:07 INFO  : 'jtag frequency' command is executed.
+16:41:07 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:41:07 INFO  : Context for 'APU' is selected.
+16:41:07 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:41:07 INFO  : 'configparams force-mem-access 1' command is executed.
+16:41:07 INFO  : Context for 'APU' is selected.
+16:41:07 INFO  : 'stop' command is executed.
+16:41:07 ERROR : AP transaction error, DAP status f0000021
+16:41:07 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+16:42:16 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:42:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:42:16 INFO  : 'jtag frequency' command is executed.
+16:42:16 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:42:16 INFO  : Context for 'APU' is selected.
+16:42:16 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:42:17 INFO  : 'configparams force-mem-access 1' command is executed.
+16:42:17 INFO  : Context for 'APU' is selected.
+16:42:17 INFO  : 'stop' command is executed.
+16:42:17 ERROR : AP transaction error, DAP status f0000021
+16:42:17 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+16:44:10 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:44:10 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:44:10 INFO  : 'jtag frequency' command is executed.
+16:44:10 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:44:10 INFO  : Context for 'APU' is selected.
+16:44:10 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:44:10 INFO  : 'configparams force-mem-access 1' command is executed.
+16:44:10 INFO  : Context for 'APU' is selected.
+16:44:11 INFO  : 'stop' command is executed.
+16:44:11 ERROR : AP transaction error, DAP status f0000021
+16:44:11 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+16:44:38 INFO  : Connected through redirection to target on host '192.168.33.154' and port '3121'.
+16:44:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351A7817DA' is selected.
+16:44:38 INFO  : 'jtag frequency' command is executed.
+16:44:38 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:44:41 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  2  xc7z010
+16:44:41 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.154:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A7817DA"} -index 0
+----------------End of Script----------------
+
+16:45:06 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:45:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:45:06 INFO  : 'jtag frequency' command is executed.
+16:45:06 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:45:06 INFO  : Context for 'APU' is selected.
+16:45:06 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:45:06 INFO  : 'configparams force-mem-access 1' command is executed.
+16:45:06 INFO  : Context for 'APU' is selected.
+16:45:07 INFO  : 'stop' command is executed.
+16:45:07 ERROR : AP transaction error, DAP status f0000021
+16:45:07 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+16:45:22 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+16:45:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+16:45:23 INFO  : 'jtag frequency' command is executed.
+16:45:23 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+16:45:23 INFO  : Context for 'APU' is selected.
+16:45:23 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+16:45:23 INFO  : 'configparams force-mem-access 1' command is executed.
+16:45:23 INFO  : Context for 'APU' is selected.
+16:45:23 INFO  : 'stop' command is executed.
+16:45:23 ERROR : AP transaction error, DAP status f0000021
+16:45:23 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+19:56:04 INFO  : Refreshed build settings on project FFT8
+20:29:08 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+20:29:09 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+20:29:09 INFO  : 'jtag frequency' command is executed.
+20:29:09 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:29:09 INFO  : Context for 'APU' is selected.
+20:29:09 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+20:29:09 INFO  : 'configparams force-mem-access 1' command is executed.
+20:29:10 INFO  : Context for 'APU' is selected.
+20:29:10 INFO  : 'stop' command is executed.
+20:29:30 INFO  : 'ps7_init' command is executed.
+20:29:31 INFO  : 'ps7_post_config' command is executed.
+20:29:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:29:31 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:29:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:29:32 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:29:32 INFO  : 'configparams force-mem-access 0' command is executed.
+20:29:32 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:29:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:29:33 INFO  : 'con' command is executed.
+20:29:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+20:29:33 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_part_3_compute_sqrt.elf_on_zybo.tcl'
+20:32:32 INFO  : Disconnected from the channel tcfchan#10.
+20:32:33 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+20:32:33 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+20:32:33 INFO  : 'jtag frequency' command is executed.
+20:32:33 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:32:33 INFO  : Context for 'APU' is selected.
+20:32:36 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+20:32:36 INFO  : 'configparams force-mem-access 1' command is executed.
+20:32:36 INFO  : Context for 'APU' is selected.
+20:32:36 INFO  : 'stop' command is executed.
+20:32:41 INFO  : 'ps7_init' command is executed.
+20:32:41 INFO  : 'ps7_post_config' command is executed.
+20:32:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:32:41 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:32:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:32:42 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:32:42 INFO  : 'configparams force-mem-access 0' command is executed.
+20:32:42 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:32:42 INFO  : 'con' command is executed.
+20:32:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+20:32:42 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_part_3_compute_sqrt.elf_on_zybo.tcl'
+20:33:37 INFO  : Disconnected from the channel tcfchan#11.
+20:33:38 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+20:33:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+20:33:38 INFO  : 'jtag frequency' command is executed.
+20:33:38 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:33:39 INFO  : Context for 'APU' is selected.
+20:33:41 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+20:33:41 INFO  : 'configparams force-mem-access 1' command is executed.
+20:33:41 INFO  : Context for 'APU' is selected.
+20:33:41 INFO  : 'stop' command is executed.
+20:33:47 INFO  : 'ps7_init' command is executed.
+20:33:47 INFO  : 'ps7_post_config' command is executed.
+20:33:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:33:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:33:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:33:48 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:33:48 INFO  : 'configparams force-mem-access 0' command is executed.
+20:33:48 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/Part_3_Compute_SQRT/Debug/Part_3_Compute_SQRT.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:33:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:33:48 INFO  : 'con' command is executed.
+20:33:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+20:33:48 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_part_3_compute_sqrt.elf_on_zybo.tcl'
+20:34:21 INFO  : Disconnected from the channel tcfchan#12.
+20:35:26 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+20:35:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+20:35:26 INFO  : 'jtag frequency' command is executed.
+20:35:26 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:35:26 INFO  : Context for 'APU' is selected.
+20:35:26 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+20:35:26 INFO  : 'configparams force-mem-access 1' command is executed.
+20:35:26 INFO  : Context for 'APU' is selected.
+20:35:26 INFO  : 'stop' command is executed.
+20:35:32 INFO  : 'ps7_init' command is executed.
+20:35:32 INFO  : 'ps7_post_config' command is executed.
+20:35:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:35:32 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:35:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:35:33 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:35:33 INFO  : 'configparams force-mem-access 0' command is executed.
+20:35:33 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:35:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:35:33 INFO  : 'con' command is executed.
+20:35:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+20:35:33 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_fft8.elf_on_zybo.tcl'
+20:36:15 INFO  : Disconnected from the channel tcfchan#13.
+20:36:16 INFO  : Connected through redirection to target on host '192.168.33.157' and port '3121'.
+20:36:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351A78181A' is selected.
+20:36:16 INFO  : 'jtag frequency' command is executed.
+20:36:16 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:36:16 INFO  : Context for 'APU' is selected.
+20:36:18 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+20:36:18 INFO  : 'configparams force-mem-access 1' command is executed.
+20:36:18 INFO  : Context for 'APU' is selected.
+20:36:18 INFO  : 'stop' command is executed.
+20:36:23 INFO  : 'ps7_init' command is executed.
+20:36:24 INFO  : 'ps7_post_config' command is executed.
+20:36:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:36:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:36:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:36:24 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:36:24 INFO  : 'configparams force-mem-access 0' command is executed.
+20:36:24 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:36:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:36:24 INFO  : 'con' command is executed.
+20:36:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A78181A"} -index 0
+con
+----------------End of Script----------------
+
+20:36:24 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_fft8.elf_on_zybo.tcl'
+20:38:03 INFO  : Disconnected from the channel tcfchan#14.
+18:55:47 INFO  : Registering command handlers for SDK TCF services
+18:55:48 INFO  : Launching XSCT server: xsct.bat -interactive D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\temp_xsdb_launch_script.tcl
+18:55:53 INFO  : XSCT server has started successfully.
+18:55:53 INFO  : Successfully done setting XSCT server connection channel  
+18:55:57 INFO  : Successfully done setting SDK workspace  
+18:55:57 INFO  : Processing command line option -hwspec D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper.hdf.
+18:55:57 INFO  : Checking for hwspec changes in the project ZYNQ_block_wrapper_hw_platform_0.
+19:40:13 ERROR : Failed to redirect connection to hardware server on host '192.168.33.157' and port '3121'.
+Reason: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+19:40:13 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.157:3121]
+----------------End of Script----------------
+
+19:42:05 INFO  : Connected through redirection to target on host '192.168.33.150' and port '3121'.
+19:43:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351A77B9BA' is selected.
+19:43:02 INFO  : 'jtag frequency' command is executed.
+19:43:02 INFO  : Sourcing of 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl' is done.
+19:43:02 INFO  : Context for 'APU' is selected.
+19:43:02 INFO  : System reset is completed.
+19:43:05 INFO  : 'after 3000' command is executed.
+19:43:05 INFO  : Context for 'APU' is selected.
+19:43:05 INFO  : Hardware design information is loaded from 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf'.
+19:43:05 INFO  : 'configparams force-mem-access 1' command is executed.
+19:43:05 INFO  : Context for 'APU' is selected.
+19:43:09 INFO  : 'ps7_init' command is executed.
+19:43:09 INFO  : 'ps7_post_config' command is executed.
+19:43:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:43:10 INFO  : The application 'D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:43:10 INFO  : 'configparams force-mem-access 0' command is executed.
+19:43:10 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.33.150:3121]
+source D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A77B9BA"} -index 0
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A77B9BA"} -index 0
+loadhw -hw D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/ZYNQ_block_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351A77B9BA"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A77B9BA"} -index 0
+dow D:/IIITD/ELD_LABs/LAB_8_ZYNQ_IP/ZYNQ/ZYNQ.sdk/FFT8/Debug/FFT8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:43:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:43:10 INFO  : 'con' command is executed.
+19:43:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351A77B9BA"} -index 0
+con
+----------------End of Script----------------
+
+19:43:10 INFO  : Launch script is exported to file 'D:\IIITD\ELD_LABs\LAB_8_ZYNQ_IP\ZYNQ\ZYNQ.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_fft8.elf_on_zybo.tcl'
+19:43:32 ERROR : (XSDB Server)invalid command name "jatagterminal"
+
+19:47:51 INFO  : Disconnected from the channel tcfchan#2.

@@ -1,0 +1,345 @@
+15:40:14 **** Build of project mb_lab_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+C:/Xilinx/SDK/2019.1/gnuwin/bin/make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+inbyte.c: In function 'inbyte':
+inbyte.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+outbyte.c: In function 'outbyte':
+outbyte.c:11:19: warning: unused parameter 'c' [-Wunused-parameter]
+ void outbyte(char c) {
+              ~~~~~^
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+'Finished building libraries'
+
+**** Build of configuration Debug for project mb_lab ****
+
+Nothing to build for project mb_lab
+
+****  of configuration Debug for project mb_lab ****
+
+Nothing to build for project mb_lab
+
+****  of configuration Debug for project mb_lab ****
+
+Nothing to build for project mb_lab
+15:41:27 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: in function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: mb_lab.elf] Error 1
+15:43:11 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c:10:10: fatal error: xaximdma.h: No such file or directory
+ #include "xaximdma.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+15:44:53 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c:10:10: fatal error: xaximdma.h: No such file or directory
+ #include <xaximdma.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+15:47:19 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:16:6: warning: unused variable 'init_addr' [-Wunused-variable]
+  int init_addr = XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR;
+      ^~~~~~~~~
+../src/mb_demo.c:15:6: warning: unused variable 'input_data' [-Wunused-variable]
+  int input_data[] = {4,9,16,20,40,55,76};
+      ^~~~~~~~~~
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2056	    268	   3108	   5432	   1538	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+15:55:06 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13456	   1376	   3168	  18000	   4650	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:00:27 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13800	   1376	   3168	  18344	   47a8	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:02:09 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13800	   1376	   3168	  18344	   47a8	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:04:51 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:47: error: macro "XAxiDma_ReadReg" requires 2 arguments, but only 1 given
+  XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0X4)
+                                               ^
+../src/mb_demo.c:37:2: error: 'XAxiDma_ReadReg' undeclared (first use in this function); did you mean 'XAxiDma_Resume'?
+  XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0X4)
+  ^~~~~~~~~~~~~~~
+  XAxiDma_Resume
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/mb_demo.c:37:17: error: expected ';' before '}' token
+  XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0X4)
+                 ^
+                 ;
+ }
+ ~                
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:06:20 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:2: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4) & XAXIDMA_HALTED_MASK;
+  ^~~~~~
+  XStatus
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/mb_demo.c:37:56: error: macro "XAxiDma_ReadReg" requires 2 arguments, but only 1 given
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4) & XAXIDMA_HALTED_MASK;
+                                                        ^
+../src/mb_demo.c:37:11: error: 'XAxiDma_ReadReg' undeclared (first use in this function); did you mean 'XAxiDma_Resume'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4) & XAXIDMA_HALTED_MASK;
+           ^~~~~~~~~~~~~~~
+           XAxiDma_Resume
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:06:52 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:2: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4)&XAXIDMA_HALTED_MASK;
+  ^~~~~~
+  XStatus
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/mb_demo.c:37:56: error: macro "XAxiDma_ReadReg" requires 2 arguments, but only 1 given
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4)&XAXIDMA_HALTED_MASK;
+                                                        ^
+../src/mb_demo.c:37:11: error: 'XAxiDma_ReadReg' undeclared (first use in this function); did you mean 'XAxiDma_Resume'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR + 0x4)&XAXIDMA_HALTED_MASK;
+           ^~~~~~~~~~~~~~~
+           XAxiDma_Resume
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:07:55 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:2: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR , 0x4)&XAXIDMA_HALTED_MASK;
+  ^~~~~~
+  XStatus
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:09:01 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:2: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR , 0x4)&XAXIDMA_HALTED_MASK;
+  ^~~~~~
+  XStatus
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:09:52 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+../src/mb_demo.c: In function 'main':
+../src/mb_demo.c:37:2: error: 'status' undeclared (first use in this function); did you mean 'XStatus'?
+  status = XAxiDma_ReadReg(XPAR_AXI_DMA_0_BASEADDR , 0x4)&XAXIDMA_HALTED_MASK;
+  ^~~~~~
+  XStatus
+../src/mb_demo.c:37:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/mb_demo.o] Error 1
+16:10:08 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:10:16 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:14:47 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:50:54 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+16:51:02 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 

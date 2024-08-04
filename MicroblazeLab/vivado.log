@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 29 15:04:38 2021
+# Process ID: 28944
+# Current directory: D:/IIITD/ELD_LABs/MicroblazeLab
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16768 D:\IIITD\ELD_LABs\MicroblazeLab\MicroblazeLab.xpr
+# Log file: D:/IIITD/ELD_LABs/MicroblazeLab/vivado.log
+# Journal file: D:/IIITD/ELD_LABs/MicroblazeLab\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.xpr
+INFO: [Project 1-313] Project file moved from 'C:/ELD2021/MicroblazeLab' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'D:/IIITD/Users/dipga/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/dipga/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:19 . Memory (MB): peak = 916.820 ; gain = 279.832
+update_compile_order -fileset sources_1
+open_bd_design {D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - microblaze_0
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_Clk_100M
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:floating_point:7.1 - fix_to_float
+Adding component instance block -- xilinx.com:ip:floating_point:7.1 - sq_root
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_MM2S>
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_S2MM>
+Successfully read diagram <design_1> from BD file <D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1247.875 ; gain = 24.395
+launch_sdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 29 15:32:41 2021...

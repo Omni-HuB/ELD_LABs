@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="IO_system_ila_0_0_synth_1" LaunchDir="D:/IIITD/ELD_LABs/LAB_9_IO_BRAM_ILA/IO_BRAM_ILA/IO_BRAM_ILA.runs/IO_system_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

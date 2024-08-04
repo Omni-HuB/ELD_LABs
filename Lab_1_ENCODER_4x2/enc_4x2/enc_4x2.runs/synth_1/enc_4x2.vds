@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 12 11:16:28 2023
+# Process ID: 14684
+# Current directory: D:/IIITD/SEM3/ELD_LABs/Lab_1_ENCODER_4x2/enc_4x2/enc_4x2.runs/synth_1
+# Command line: vivado.exe -log enc_4x2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source enc_4x2.tcl
+# Log file: D:/IIITD/SEM3/ELD_LABs/Lab_1_ENCODER_4x2/enc_4x2/enc_4x2.runs/synth_1/enc_4x2.vds
+# Journal file: D:/IIITD/SEM3/ELD_LABs/Lab_1_ENCODER_4x2/enc_4x2/enc_4x2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source enc_4x2.tcl -notrace
+Command: synth_design -top enc_4x2 -part xc7a35tcpg236-1
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-1293] The path 'D:/IIITD/SEM3/ELD_LABs/Lab_1_ENCODER_4x2/enc_4x2/enc_4x2.cache/wt' already exists, is a directory, but is not writable.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 12 11:16:58 2023...

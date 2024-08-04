@@ -1,0 +1,21 @@
+03:06:06 **** Auto Build of configuration Debug for project microblaze_FFT ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../microblaze_FFT_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: microblaze_FFT.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../microblaze_FFT_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "microblaze_FFT.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: microblaze_FFT.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size microblaze_FFT.elf  |tee "microblaze_FFT.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17480	   1376	   3168	  22024	   5608	microblaze_FFT.elf
+'Finished building: microblaze_FFT.elf.size'
+' '
+
+03:06:08 Build Finished (took 2s.358ms)
+

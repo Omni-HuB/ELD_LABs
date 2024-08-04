@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.srcs/sim_1/new/tb_fa.v,1632894440,verilog,,,,tb_fa,,,../../../../FullAdder_TopAdder_Multiplier.srcs/sources_1/ip/vio_0/hdl,,,,,
+D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.srcs/sources_1/new/full_adder.v,1632892987,verilog,,D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.srcs/sources_1/new/top_adder.v,,full_adder,,,../../../../FullAdder_TopAdder_Multiplier.srcs/sources_1/ip/vio_0/hdl,,,,,
+D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.srcs/sources_1/new/top_adder.v,1632894076,verilog,,D:/IIITD/ELD_LABs/Lab_2_Multiplier/FullAdder_TopAdder_Multiplier/FullAdder_TopAdder_Multiplier.srcs/sim_1/new/tb_fa.v,,top_adder,,,../../../../FullAdder_TopAdder_Multiplier.srcs/sources_1/ip/vio_0/hdl,,,,,

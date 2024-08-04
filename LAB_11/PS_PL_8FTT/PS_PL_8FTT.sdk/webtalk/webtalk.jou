@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Wed Dec 15 00:40:53 2021
+# Process ID: 27160
+# Current directory: D:/IIITD/ELD_LABs/LAB_11/PS_PL_8FTT/PS_PL_8FTT.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/IIITD/ELD_LABs/LAB_11/PS_PL_8FTT/PS_PL_8FTT.sdk/webtalk/webtalk.log
+# Journal file: D:/IIITD/ELD_LABs/LAB_11/PS_PL_8FTT/PS_PL_8FTT.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,21 @@
+16:51:02 **** Auto Build of configuration Debug for project mb_lab ****
+make all 
+Building file: ../src/mb_demo.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_demo.o" -I../../mb_lab_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_demo.d" -MT"src/mb_demo.o" -o "src/mb_demo.o" "../src/mb_demo.c"
+Finished building: ../src/mb_demo.c
+ 
+Building target: mb_lab.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mb_lab_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_lab.elf"  ./src/mb_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mb_lab.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size mb_lab.elf  |tee "mb_lab.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13988	   1376	   3172	  18536	   4868	mb_lab.elf
+Finished building: mb_lab.elf.size
+ 
+
+16:51:03 Build Finished (took 800ms)
+

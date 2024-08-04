@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.srcs/sources_1/new/top_FFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_FFT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.srcs/sim_1/new/fft_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fft_tb

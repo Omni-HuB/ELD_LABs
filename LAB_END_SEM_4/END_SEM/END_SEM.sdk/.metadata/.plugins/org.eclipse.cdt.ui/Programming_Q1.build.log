@@ -1,0 +1,13 @@
+16:51:34 **** Auto Build of configuration Debug for project Programming_Q1 ****
+make all 
+'Building file: ../src/question1.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/question1.o" -I../../Programming_Q1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/question1.d" -MT"src/question1.o" -o "src/question1.o" "../src/question1.c"
+../src/question1.c:11:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/question1.o] Error 1
+
+16:51:34 Build Finished (took 466ms)
+

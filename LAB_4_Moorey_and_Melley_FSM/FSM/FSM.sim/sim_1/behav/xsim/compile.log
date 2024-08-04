@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIITD/ELD_LABs/LAB_4_Moorey_and_Melley_FSM/FSM/FSM.srcs/sources_1/new/fsm_11011.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_11011
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/IIITD/ELD_LABs/LAB_4_Moorey_and_Melley_FSM/FSM/FSM.srcs/sim_1/new/fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_tb

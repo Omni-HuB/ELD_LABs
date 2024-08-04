@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 30 23:45:05 2021
+# Process ID: 11652
+# Current directory: D:/IIITD/ELD_LABs/LAB_9_IO_BRAM_ILA/IO_BRAM_ILA/IO_BRAM_ILA.runs/synth_1
+# Command line: vivado.exe -log IO_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IO_wrapper.tcl
+# Log file: D:/IIITD/ELD_LABs/LAB_9_IO_BRAM_ILA/IO_BRAM_ILA/IO_BRAM_ILA.runs/synth_1/IO_wrapper.vds
+# Journal file: D:/IIITD/ELD_LABs/LAB_9_IO_BRAM_ILA/IO_BRAM_ILA/IO_BRAM_ILA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IO_wrapper.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 19 19:19:09 2021
+# Process ID: 24072
+# Current directory: D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.sim/sim_1/behav/xsim/xsim.dir/fft_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/IIITD/ELD_LABs/LAB_7_AXI_Protocol_Use_And_FFT/FFT_And_AXI_Stream_Protocol/FFT_And_AXI_Stream_Protocol.sim/sim_1/behav/xsim/xsim.dir/fft_tb_behav/webtalk/xsim_webtalk.tcl -notrace

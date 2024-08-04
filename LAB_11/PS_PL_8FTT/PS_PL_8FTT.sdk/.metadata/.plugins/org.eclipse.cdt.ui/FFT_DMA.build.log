@@ -1,0 +1,8 @@
+01:10:31 **** Incremental Build of configuration Debug for project FFT_DMA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+01:10:32 Build Finished (took 411ms)
+

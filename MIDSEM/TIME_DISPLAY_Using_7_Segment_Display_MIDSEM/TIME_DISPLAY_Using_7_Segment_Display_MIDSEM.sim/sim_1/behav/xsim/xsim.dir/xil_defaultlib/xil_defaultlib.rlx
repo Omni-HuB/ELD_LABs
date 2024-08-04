@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/imports/new/clk_divider.v,1634134477,verilog,,D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/new/top_clock.v,,clk_divider,,,../../../../TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1635936065,verilog,,D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/imports/new/clk_divider.v,,clk_wiz_0,,,../../../../TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1635936065,verilog,,D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/new/seven_segment.v,1635953676,verilog,,,,seven_segment,,,../../../../TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/IIITD/ELD_LABs/MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM/TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/new/top_clock.v,1635943288,verilog,,,,top_clock,,,../../../../TIME_DISPLAY_Using_7_Segment_Display_MIDSEM.srcs/sources_1/ip/clk_wiz_0,,,,,

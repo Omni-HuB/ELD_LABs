@@ -1,0 +1,251 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 29 12:17:06 2021
+# Process ID: 38592
+# Current directory: D:/IIITD/ELD_LABs/MicroblazeLab
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7324 D:\IIITD\ELD_LABs\MicroblazeLab\MicroblazeLab.xpr
+# Log file: D:/IIITD/ELD_LABs/MicroblazeLab/vivado.log
+# Journal file: D:/IIITD/ELD_LABs/MicroblazeLab\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.xpr
+INFO: [Project 1-313] Project file moved from 'C:/ELD2021/MicroblazeLab' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'D:/IIITD/Users/dipga/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/dipga/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:22 . Memory (MB): peak = 923.438 ; gain = 288.418
+update_compile_order -fileset sources_1
+open_bd_design {D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - microblaze_0
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_Clk_100M
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:floating_point:7.1 - fix_to_float
+Adding component instance block -- xilinx.com:ip:floating_point:7.1 - sq_root
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_MM2S>
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_S2MM>
+Successfully read diagram <design_1> from BD file <D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1246.863 ; gain = 41.219
+launch_sdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+write_hwdef -force  -file D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk -hwspec D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/moham/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/production/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+create_project END_SEM D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM -part xc7z020clg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1313.512 ; gain = 66.648
+set_property board_part digilentinc.com:zedboard:part0:1.0 [current_project]
+create_bd_design "endSem"
+Wrote  : <D:\IIITD\ELD_LABs\LAB_END_SEM_4\END_SEM\END_SEM.srcs\sources_1\bd\endSem\endSem.bd> 
+create_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1353.750 ; gain = 37.336
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:11.0 microblaze_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config { axi_intc {0} axi_periph {Enabled} cache {None} clk {New External Port (100 MHz)} debug_module {Debug Only} ecc {None} local_mem {128KB} preset {None}}  [get_bd_cells microblaze_0]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+endgroup
+set_property name Clock [get_bd_ports Clk]
+startgroup
+make_bd_pins_external  [get_bd_pins rst_Clk_100M/ext_reset_in]
+endgroup
+set_property name reset [get_bd_ports ext_reset_in_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 axi_bram_ctrl_0
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] endSem_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] endSem_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+endgroup
+set_property location {1 105 -433} [get_bd_cells axi_bram_ctrl_0]
+WARNING: [IP_Flow 19-465] param 'READ_LATENCY' already exists. Ignoring.
+WARNING: [IP_Flow 19-465] param 'RD_CMD_OPTIMIZATION' already exists. Ignoring.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] endSem_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] endSem_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+set_property -dict [list CONFIG.DATA_WIDTH {64} CONFIG.ECC_TYPE {0}] [get_bd_cells axi_bram_ctrl_0]
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-2] endSem_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.1-1] endSem_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/Clock (100 MHz)} Clk_slave {Auto} Clk_xbar {Auto} Master {/microblaze_0 (Periph)} Slave {/axi_bram_ctrl_0/S_AXI} intc_ip {Auto} master_apm {0}}  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI]
+Slave segment </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into address space </microblaze_0/Data> at <0xC000_0000 [ 8K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:bram_cntlr -config {BRAM "Auto" }  [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTA]
+apply_bd_automation -rule xilinx.com:bd_rule:bram_cntlr -config {BRAM "Auto" }  [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTB]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0
+endgroup
+set_property -dict [list CONFIG.c_m_axi_s2mm_data_width.VALUE_SRC USER] [get_bd_cells axi_dma_0]
+set_property -dict [list CONFIG.c_include_sg {0} CONFIG.c_sg_include_stscntrl_strm {0} CONFIG.c_m_axi_mm2s_data_width {64} CONFIG.c_m_axis_mm2s_tdata_width {64} CONFIG.c_include_mm2s_dre {1} CONFIG.c_mm2s_burst_size {256} CONFIG.c_m_axi_s2mm_data_width {64} CONFIG.c_include_s2mm_dre {1} CONFIG.c_s2mm_burst_size {256}] [get_bd_cells axi_dma_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/Clock (100 MHz)} Clk_slave {Auto} Clk_xbar {/Clock (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_dma_0/S_AXI_LITE} intc_ip {/axi_mem_intercon} master_apm {0}}  [get_bd_intf_pins axi_dma_0/S_AXI_LITE]
+Slave segment </axi_dma_0/S_AXI_LITE/Reg> is being mapped into address space </microblaze_0/Data> at <0x41E0_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/Clock (100 MHz)} Clk_xbar {/Clock (100 MHz)} Master {/axi_dma_0/M_AXI_MM2S} Slave {/axi_bram_ctrl_0/S_AXI} intc_ip {/axi_mem_intercon} master_apm {0}}  [get_bd_intf_pins axi_dma_0/M_AXI_MM2S]
+Slave segment </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into address space </axi_dma_0/Data_MM2S> at <0xC000_0000 [ 8K ]>
+Slave segment </axi_dma_0/S_AXI_LITE/Reg> is being mapped into address space </axi_dma_0/Data_MM2S> at <0x41E0_0000 [ 64K ]>
+INFO: [BD 41-1051] The usage register of slave segment /axi_dma_0/S_AXI_LITE/Reg does not match the usage memory of address space /axi_dma_0/Data_MM2S and will be excluded. Use the include_bd_addr_seg command to override this precaution and make the slave segment visible within this address space.
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_MM2S>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/Clock (100 MHz)} Clk_xbar {/Clock (100 MHz)} Master {/axi_dma_0/M_AXI_S2MM} Slave {/axi_bram_ctrl_0/S_AXI} intc_ip {/axi_mem_intercon} master_apm {0}}  [get_bd_intf_pins axi_dma_0/M_AXI_S2MM]
+Slave segment </axi_bram_ctrl_0/S_AXI/Mem0> is being mapped into address space </axi_dma_0/Data_S2MM> at <0xC000_0000 [ 8K ]>
+Slave segment </axi_dma_0/S_AXI_LITE/Reg> is being mapped into address space </axi_dma_0/Data_S2MM> at <0x41E0_0000 [ 64K ]>
+INFO: [BD 41-1051] The usage register of slave segment /axi_dma_0/S_AXI_LITE/Reg does not match the usage memory of address space /axi_dma_0/Data_S2MM and will be excluded. Use the include_bd_addr_seg command to override this precaution and make the slave segment visible within this address space.
+Excluding </axi_dma_0/S_AXI_LITE/Reg> from </axi_dma_0/Data_S2MM>
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+current_project MicroblazeLab
+current_project END_SEM
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+CRITICAL WARNING: [xilinx.com:ip:axi_dma:7.1-11] /axi_dma_0
+                   #################################### 
+                   S_AXIS_S2MM interface is unconnected
+                   ####################################
+generate_target all [get_files  D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd]
+INFO: [BD 41-1662] The design 'endSem.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:\IIITD\ELD_LABs\LAB_END_SEM_4\END_SEM\END_SEM.srcs\sources_1\bd\endSem\endSem.bd> 
+Wrote  : <D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/ui/bd_9c7266c0.ui> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/synth/endSem.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addrb'(32) to net 'axi_bram_ctrl_0_BRAM_PORTB_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/sim/endSem.v
+VHDL Output written to : D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hdl/endSem_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_Clk_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/ip/endSem_auto_pc_1/endSem_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/ip/endSem_auto_us_0/endSem_auto_us_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/ip/endSem_auto_ds_0/endSem_auto_ds_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/ip/endSem_auto_pc_0/endSem_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+Exporting to file D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hw_handoff/endSem.hwh
+Generated Block Design Tcl file D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hw_handoff/endSem_bd.tcl
+Generated Hardware Definition File D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/synth/endSem.hwdef
+generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1830.355 ; gain = 317.699
+catch { config_ip_cache -export [get_ips -all endSem_microblaze_0_0] }
+catch { config_ip_cache -export [get_ips -all endSem_dlmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all endSem_ilmb_v10_0] }
+catch { config_ip_cache -export [get_ips -all endSem_dlmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all endSem_ilmb_bram_if_cntlr_0] }
+catch { config_ip_cache -export [get_ips -all endSem_lmb_bram_0] }
+catch { config_ip_cache -export [get_ips -all endSem_mdm_1_0] }
+catch { config_ip_cache -export [get_ips -all endSem_rst_Clk_100M_0] }
+catch { config_ip_cache -export [get_ips -all endSem_axi_bram_ctrl_0_0] }
+catch { config_ip_cache -export [get_ips -all endSem_xbar_0] }
+catch { config_ip_cache -export [get_ips -all endSem_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all endSem_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all endSem_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all endSem_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all endSem_axi_bram_ctrl_0_bram_0] }
+catch { config_ip_cache -export [get_ips -all endSem_axi_dma_0_0] }
+export_ip_user_files -of_objects [get_files D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd]
+launch_runs -jobs 4 {endSem_microblaze_0_0_synth_1 endSem_dlmb_v10_0_synth_1 endSem_ilmb_v10_0_synth_1 endSem_dlmb_bram_if_cntlr_0_synth_1 endSem_ilmb_bram_if_cntlr_0_synth_1 endSem_lmb_bram_0_synth_1 endSem_mdm_1_0_synth_1 endSem_rst_Clk_100M_0_synth_1 endSem_axi_bram_ctrl_0_0_synth_1 endSem_xbar_0_synth_1 endSem_auto_pc_1_synth_1 endSem_auto_us_0_synth_1 endSem_auto_ds_0_synth_1 endSem_auto_pc_0_synth_1 endSem_axi_bram_ctrl_0_bram_0_synth_1 endSem_axi_dma_0_0_synth_1}
+[Wed Dec 29 14:32:10 2021] Launched endSem_microblaze_0_0_synth_1, endSem_dlmb_v10_0_synth_1, endSem_ilmb_v10_0_synth_1, endSem_dlmb_bram_if_cntlr_0_synth_1, endSem_ilmb_bram_if_cntlr_0_synth_1, endSem_lmb_bram_0_synth_1, endSem_mdm_1_0_synth_1, endSem_rst_Clk_100M_0_synth_1, endSem_axi_bram_ctrl_0_0_synth_1, endSem_xbar_0_synth_1, endSem_auto_pc_1_synth_1, endSem_auto_us_0_synth_1, endSem_auto_ds_0_synth_1, endSem_auto_pc_0_synth_1, endSem_axi_bram_ctrl_0_bram_0_synth_1, endSem_axi_dma_0_0_synth_1...
+Run output will be captured here:
+endSem_microblaze_0_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_microblaze_0_0_synth_1/runme.log
+endSem_dlmb_v10_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_dlmb_v10_0_synth_1/runme.log
+endSem_ilmb_v10_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_ilmb_v10_0_synth_1/runme.log
+endSem_dlmb_bram_if_cntlr_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_dlmb_bram_if_cntlr_0_synth_1/runme.log
+endSem_ilmb_bram_if_cntlr_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_ilmb_bram_if_cntlr_0_synth_1/runme.log
+endSem_lmb_bram_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_lmb_bram_0_synth_1/runme.log
+endSem_mdm_1_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_mdm_1_0_synth_1/runme.log
+endSem_rst_Clk_100M_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_rst_Clk_100M_0_synth_1/runme.log
+endSem_axi_bram_ctrl_0_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_axi_bram_ctrl_0_0_synth_1/runme.log
+endSem_xbar_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_xbar_0_synth_1/runme.log
+endSem_auto_pc_1_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_auto_pc_1_synth_1/runme.log
+endSem_auto_us_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_auto_us_0_synth_1/runme.log
+endSem_auto_ds_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_auto_ds_0_synth_1/runme.log
+endSem_auto_pc_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_auto_pc_0_synth_1/runme.log
+endSem_axi_bram_ctrl_0_bram_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_axi_bram_ctrl_0_bram_0_synth_1/runme.log
+endSem_axi_dma_0_0_synth_1: D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.runs/endSem_axi_dma_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd] -directory D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.ip_user_files/sim_scripts -ip_user_files_dir D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.ip_user_files -ipstatic_source_dir D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.cache/compile_simlib/modelsim} {questa=D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.cache/compile_simlib/questa} {riviera=D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.cache/compile_simlib/riviera} {activehdl=D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd] -top
+add_files -norecurse D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hdl/endSem_wrapper.v
+file mkdir D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sim_1/new/endSem_tb.v w ]
+add_files -fileset sim_1 D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sim_1/new/endSem_tb.v
+update_compile_order -fileset sim_1
+open_bd_design {D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd}
+current_project MicroblazeLab
+current_project END_SEM
+open_bd_design {D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd}
+open_bd_design {D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd}
+open_bd_design {D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd}
+export_ip_user_files -of_objects  [get_files D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hdl/endSem_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/hdl/endSem_wrapper.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sim_1/new/endSem_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sim_1/new/endSem_tb.v
+reset_target all [get_files  D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd]
+export_ip_user_files -of_objects  [get_files  D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/IIITD/ELD_LABs/LAB_END_SEM_4/END_SEM/END_SEM.srcs/sources_1/bd/endSem/endSem.bd]
+delete_ip_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1893.590 ; gain = 0.000
+close_project
+open_bd_design {D:/IIITD/ELD_LABs/MicroblazeLab/MicroblazeLab.srcs/sources_1/bd/design_1/design_1.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 29 14:49:44 2021...

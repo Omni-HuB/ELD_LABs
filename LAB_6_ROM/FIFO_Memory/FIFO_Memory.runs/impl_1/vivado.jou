@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  9 21:34:42 2021
+# Process ID: 10144
+# Current directory: D:/IIITD/ELD_LABs/LAB_6_ROM/FIFO_Memory/FIFO_Memory.runs/impl_1
+# Command line: vivado.exe -log vio_wrapper_6.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vio_wrapper_6.tcl -notrace
+# Log file: D:/IIITD/ELD_LABs/LAB_6_ROM/FIFO_Memory/FIFO_Memory.runs/impl_1/vio_wrapper_6.vdi
+# Journal file: D:/IIITD/ELD_LABs/LAB_6_ROM/FIFO_Memory/FIFO_Memory.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vio_wrapper_6.tcl -notrace
